@@ -1,8 +1,8 @@
 Sentiment Classification with Neural Language Models
 
-This repository contains my Stage 1 submission for Assignment 2.
+This repository is my Stage 1 submission for Assignment 2.
 
-The project uses a GRU-based neural network to classify movie reviews as:
+The project uses models to classify movie reviews as:
 
 - 0 = negative
 - 1 = positive
@@ -18,15 +18,17 @@ Model
 
 The model uses the following structure:
 
-Embedding → GRU → Dropout → Linear Classification Layer
+Embedding 
+ GRU 
+ Dropout 
+ Linear Classification Layer
 
-Installation
 
-Install the required packages with:
+Install the required packages with the following code command:
 
-```bash
+
 pip install -r requirements.txt
-```
+
 
 Running
 
